@@ -1,0 +1,36 @@
+[alias]
+  a = add
+  b = branch
+  c = commit
+  s = status
+  l = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)'
+  co = checkout
+  rb = rebase
+  re = remote
+[user]
+  name = 김정환
+  email = ej88ej@gmail.com
+[core]
+  editor = vim
+  excludesfile = /Users/woowahan/.gitignore_global
+  autocrlf = input
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[ghi]
+  token = !security find-internet-password -a  -s github.com -l 'ghi token' -w
+[http]
+  postBuffer = 157286400
+[filter "media"]
+  clean = git media clean %f
+  smudge = git media smudge %f
+  required = true
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[credential]
+  helper = osxkeychain
