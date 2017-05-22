@@ -11,6 +11,7 @@ end
 function M.init(mods)
   local bindAppwithMods = bindApp(mods)
 
+  bindAppwithMods('a', 'Atom')
   bindAppwithMods('e', 'Evernote')
   bindAppwithMods('h', 'Google Chrome')
   bindAppwithMods('i', 'iTerm')
