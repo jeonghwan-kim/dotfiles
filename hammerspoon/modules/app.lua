@@ -20,6 +20,7 @@ function M.init(mods)
   bindAppwithMods('k', 'KakaoTalk')
   bindAppwithMods('m', 'Mail')
   bindAppwithMods('n', 'Notes')
+  bindAppwithMods('s', 'Slack')
 end
 
 return M
