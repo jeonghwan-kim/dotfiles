@@ -4,6 +4,8 @@ local function bindApp(mods)
   return function(key, modifiers, character)
     hs.hotkey.bind(mods, key, function()
       hs.eventtap.keyStroke(modifiers, character, 1)
+    end, nil, function() 
+      hs.eventtap.keyStroke(modifiers, character, 1)
     end)
   end
 end
