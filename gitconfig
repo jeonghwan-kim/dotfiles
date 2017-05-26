@@ -7,6 +7,7 @@
   co = checkout
   rb = rebase
   re = remote
+  st = stash
 [user]
   name = 김정환
   email = ej88ej@gmail.com
