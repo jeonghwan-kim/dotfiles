@@ -19,7 +19,7 @@ function M.init(mods)
   bindAppwithMods('j', 'IntelliJ IDEA')
   bindAppwithMods('l', 'Line')
   bindAppwithMods('k', 'KakaoTalk')
-  bindAppwithMods('m', 'Mail')
+  bindAppwithMods('m', 'Messages')
   bindAppwithMods('n', 'Notes')
   bindAppwithMods('s', 'Slack')
 end
