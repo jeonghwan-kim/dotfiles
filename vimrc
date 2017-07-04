@@ -12,6 +12,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'johngrib/vim-game-code-break'
 " Plugin 'digitaltoad/vim-jade'
 " Plugin 'kchmck/vim-coffee-script'
 " Plugin 'airblade/vim-gitgutter'
