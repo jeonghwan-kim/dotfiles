@@ -21,6 +21,7 @@ function M.init(mods)
   bindAppwithMods('k', 'KakaoTalk')
   bindAppwithMods('m', 'Messages')
   bindAppwithMods('n', 'Notes')
+  bindAppwithMods('o', '/usr/local/bin/code')
   bindAppwithMods('s', 'Slack')
 end
 
