@@ -21,6 +21,7 @@ function M.init(mods)
   bindAppwithMods('k', 'KakaoTalk')
   bindAppwithMods('m', 'Messages')
   bindAppwithMods('n', 'Notes')
+  bindAppwithMods('o', 'Visual Studio Code')
   bindAppwithMods('s', 'Slack')
 end
 
