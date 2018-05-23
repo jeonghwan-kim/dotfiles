@@ -3,7 +3,7 @@
   b = branch
   c = commit
   s = status
-  l = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)'
+  l = log --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset) %C(reset)%s%C(reset) %C(green)(%ar %an)%C(reset) %C(cyan)%d%C(reset)'
   co = checkout
   rb = rebase
   re = remote
