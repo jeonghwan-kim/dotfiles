@@ -15,9 +15,9 @@ function M.init(mods)
   bindAppwithMods('d', 'Dictionary')
   bindAppwithMods('i', 'iTerm')
   bindAppwithMods('j', 'IntelliJ IDEA')
+  bindAppwithMods('m', 'Slack')
   bindAppwithMods('n', 'Evernote')
   bindAppwithMods('o', 'Visual Studio Code')
-  bindAppwithMods('s', 'Slack')
 end
 
 return M
