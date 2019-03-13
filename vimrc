@@ -12,15 +12,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'johngrib/vim-game-code-break'
-" Plugin 'digitaltoad/vim-jade'
-" Plugin 'kchmck/vim-coffee-script'
-" Plugin 'airblade/vim-gitgutter'
-" Plugin 'elzr/vim-json'
-" Plugin 'flazz/vim-colorschemes'
-" Plugin 'majutsushi/tagbar'
-" Plugin 'Yggdroot/indentLine'
-" Plugin 'scrooloose/syntastic' 
 " All of your Plugins must be aded before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
