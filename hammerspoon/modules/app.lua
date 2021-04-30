@@ -11,12 +11,12 @@ end
 function M.init(mods)
   local bindAppwithMods = bindApp(mods)
 
-  bindAppwithMods('b', 'Safari')
+  bindAppwithMods('b', 'Firefox')
   bindAppwithMods('d', 'Dictionary')
-  bindAppwithMods('i', 'iTerm')
+  bindAppwithMods('i', 'Terminal')
   bindAppwithMods('j', 'IntelliJ IDEA')
   bindAppwithMods('m', 'Slack')
-  bindAppwithMods('n', 'Evernote')
+  bindAppwithMods('n', 'Notes')
   bindAppwithMods('o', 'Visual Studio Code')
 end
 

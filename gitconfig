@@ -8,12 +8,15 @@
   rb = rebase
   re = remote
   st = stash
+  sh = show
+  ps = push
+  pl = pull 
 [user]
-  name = 김정환
-  email = ej88ej@gmail.com
+	name = 김정환
+	email = ej88ej@gmail.com
 [core]
   editor = vim
-  excludesfile = /Users/woowahan/.gitignore_global
+	excludesfile = /Users/gimjeonghwan/.gitignore_global
   autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -33,3 +36,6 @@
   required = true
 [credential]
   helper = osxkeychain
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
