@@ -13,7 +13,7 @@ function M.init(mods)
 
   bindAppwithMods('b', 'Firefox')
   bindAppwithMods('d', 'Dictionary')
-  bindAppwithMods('i', 'Terminal')
+  bindAppwithMods('l', 'Terminal')
   bindAppwithMods('j', 'IntelliJ IDEA')
   bindAppwithMods('m', 'Slack')
   bindAppwithMods('n', 'Notes')

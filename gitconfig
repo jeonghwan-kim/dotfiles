@@ -1,6 +1,6 @@
 [alias]
   a = add
-  b = branch
+  b = branch  -v
   c = commit
   s = status
   l = log --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset) %C(reset)%s%C(reset) %C(green)(%ar %an)%C(reset) %C(cyan)%d%C(reset)'
@@ -13,10 +13,10 @@
   pl = pull 
 [user]
 	name = 김정환
-	email = ej88ej@gmail.com
+  email = ej88ej@gmail.com
 [core]
   editor = vim
-	excludesfile = /Users/gimjeonghwan/.gitignore_global
+	excludesfile = ~/.gitignore_global
   autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

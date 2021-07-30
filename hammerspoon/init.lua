@@ -15,26 +15,26 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
 end)
 
 
-hs.keycodes.inputSourceChanged(function(v)
-  local inputSource = {
-    english = "com.apple.keylayout.ABC",
-    korean = "com.apple.inputmethod.Korean.2SetKorean",
-  }
+-- hs.keycodes.inputSourceChanged(function(v)
+--   local inputSource = {
+--     english = "com.apple.keylayout.ABC",
+--     korean = "com.apple.inputmethod.Korean.2SetKorean",
+--   }
   
-  local current = hs.keycodes.currentSourceID()
-  local language = nil
+--   local current = hs.keycodes.currentSourceID()
+--   local language = nil
 
-  if current == inputSource.korean then
-    language = '🇰🇷 한글'
-  elseif current == inputSource.english then
-    language = '🇺🇸 영문'
-  else 
-    language = current
-  end
+--   if current == inputSource.korean then
+--     language = '🇰🇷 한글'
+--   elseif current == inputSource.english then
+--     language = '🇺🇸 영문'
+--   else 
+--     language = current
+--   end
 
-  hs.alert.closeAll()
-  hs.alert.show(language)
-end)
+--   hs.alert.closeAll()
+--   hs.alert.show(language)
+-- end)
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
