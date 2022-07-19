@@ -11,13 +11,16 @@ end
 function M.init(mods)
   local bindAppwithMods = bindApp(mods)
 
-  bindAppwithMods('b', 'Firefox')
-  bindAppwithMods('d', 'Dictionary')
-  bindAppwithMods('l', 'Terminal')
-  bindAppwithMods('j', 'IntelliJ IDEA')
-  bindAppwithMods('m', 'Slack')
-  bindAppwithMods('n', 'Notes')
-  bindAppwithMods('o', 'Visual Studio Code')
+  bindAppwithMods('c', 'Google Chrome')
+  bindAppwithMods('f', 'Firefox')
+  bindAppwithMods('l', 'Terminal') -- terminaL
+  bindAppwithMods('k', 'KakaoTalk')
+  bindAppwithMods('s', 'Slack')
+  bindAppwithMods('n', 'Notes') -- Note
+  bindAppwithMods('i', 'Intellij Idea')
+  bindAppwithMods('v', 'Visual Studio Code') 
+  bindAppwithMods('p', 'Pages') -- Pages
+  bindAppwithMods('y', 'Dictionary') -- dictionarY
 end
 
 return M
