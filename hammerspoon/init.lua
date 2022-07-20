@@ -1,5 +1,5 @@
 require('modules.vim').init()
-require('modules.app').init({"cmd", "alt", "shift"})
+-- require('modules.app').init({"cmd", "alt", "shift"})
 -- require('modules.device').init()
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
