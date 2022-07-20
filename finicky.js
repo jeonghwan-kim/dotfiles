@@ -41,7 +41,7 @@ module.exports = {
   defaultBrowser: firefox,
   handlers: [
     {
-      match: [/woowa\.in/, /baemin\.in/, /gather\.town/],
+      match: [/woowa\.in/, /baemin\.in/, /gather\.town/, /docs\.google\.com/],
       browser: chrome,
     },
   ],
